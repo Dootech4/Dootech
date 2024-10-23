@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #171717;
+    background-attachment: fixed;
+    background-size: cover;
+    /* text-align: left; */
+    background: url(Fondoo.jpg);
+}
+h1{
+    /* text-align: left; */
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    padding: 0;
+}
+.Conocenos{
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 0 650px 0px 30px; 
+    margin: 15px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    background: #ffffff;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.logo{
+    margin-left: 30px;
+    padding: 20px 20px;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;;
+}
+.navdar a { display: block;
+    padding: 20px 20px;
+    color: #9c27b0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navdar a:hover{
+    color: rgb(13, 255, 133);
+
+}
+.navdar{
+    display: flex;
+    margin-right: 10px;
+}
